@@ -7,13 +7,14 @@
 
     <link rel="stylesheet" href="./style/normalize.css" />
     <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/transition.css" />
 
     <title>Sign Up - Jamshid</title>
   </head>
   <body>
     <div class="container">
       <div class="black">
-        <div class="white">
+        <div id="whiteBox" class="white">
           <div class="white__register">
             <h3 class="white__heading white__signup">Sign up</h3>
 
@@ -44,7 +45,7 @@
                 required
               />
 
-              <button class="white__form-btn">SIGN UP</button>
+              <button id="" class="white__form-btn">SIGN UP</button>
             </form>
           </div>
 
@@ -65,7 +66,7 @@
             <button id="register-btn" class="register__btn btn">SIGN UP</button>
           </div>
 
-          <div class="signin wrapper">
+          <div id="signinTexts" class="signin wrapper">
             <h3 class="signin__heading heading">Have an account?</h3>
 
             <span class="divider"></span>
@@ -81,4 +82,5 @@
     </div>
   </body>
   <script src="./JavaScript/main.js"></script>
+  <script src="./JavaScript/transition.js"></script>
 </html>

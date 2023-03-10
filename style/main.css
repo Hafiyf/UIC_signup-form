@@ -13,7 +13,6 @@ body{
     background-repeat: no-repeat;
 }
 
-
 .container{
     width: 48rem;
     height: 100%;
@@ -45,7 +44,7 @@ body{
 }
 
 .signin{
-    margin-left: 30rem;
+    margin-left: 29rem;
 }
 
 /* text editions */
@@ -62,7 +61,7 @@ body{
     display: inline-block;
     background-color: #00a7e9;
 
-    margin-top: 1rem;
+    margin-top: 1rem;   
     margin-bottom: 1rem;
 }
 
@@ -96,11 +95,13 @@ body{
     height: 25rem;
     background: #ffffffbb;
     position: absolute;
-    bottom: 7rem;
+    bottom: 11rem;
+    left: 27rem;
     transition: 0.3s;
-    left: 21rem;
 
     padding: 4rem 3rem;
+
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 }
 
 .white:hover{
@@ -144,3 +145,10 @@ body{
 
 }
 
+
+
+/* media */
+@media only screen and (max-width: 1200px) {
+
+    
+}
