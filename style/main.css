@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    width: 48rem;
+    width: 750px;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -23,6 +23,10 @@ body{
 }
 
 .disabled{
+    opacity: 0;
+}
+
+.disable{
     display: none;
 }
 
@@ -43,9 +47,7 @@ body{
     width: 250px;
 }
 
-.signin{
-    margin-left: 29rem;
-}
+
 
 /* text editions */
 .heading{
@@ -102,10 +104,6 @@ body{
     padding: 4rem 3rem;
 
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
-}
-
-.white:hover{
-    /* transform: translateX(110%); */
 }
 
 /* heading on sign up page */

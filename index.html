@@ -14,8 +14,10 @@
   <body>
     <div class="container">
       <div class="black">
+
+
         <div id="whiteBox" class="white">
-          <div class="white__register">
+          <div id="white__reg" class="white__register">
             <h3 class="white__heading white__signup">Sign up</h3>
 
             <span class="divider"></span>
@@ -49,9 +51,42 @@
             </form>
           </div>
 
-          <div class="white__login"></div>
+          <div id="whiteLogin" class="white__login disable">
+            <h3 class="white__heading white__signup">Login</h3>
+
+            <span class="divider"></span>
+
+            <form action="#" method="post" class="white__form">
+              <input
+                type="text"
+                class="name form__inputs"
+                placeholder="Name"
+                name="Name"
+                required
+              />
+  
+  
+              <input
+                type="password"
+                class="password form__inputs"
+                placeholder="Password"
+                name="password"
+                required
+              />
+  
+              <button id="whiteLoginBtn" class="white__login-btn white__form-btn">LOGIN</button>
+            </form>
+  
+          </div>
         </div>
 
+
+
+
+
+<!-- whitebox end -->
+
+ <!-- BLACK SECTION -->
         <div class="black__texts">
           <div id="register" class="register wrapper disabled">
             <h3 class="register__heading heading">Don't have an account?</h3>
@@ -63,7 +98,7 @@
               officia deserunt ducimus eligendi recusandae facilis.
             </p>
 
-            <button id="register-btn" class="register__btn btn">SIGN UP</button>
+            <button onclick="signupClick()" id="register-btn" class="register__btn btn">SIGN UP</button>
           </div>
 
           <div id="signinTexts" class="signin wrapper">
@@ -75,7 +110,7 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
 
-            <button id="login-btn" class="signin__btn btn">LOGIN</button>
+            <button onclick="loginClick()" id="login-btn" class="signin__btn btn">LOGIN</button>
           </div>
         </div>
       </div>
