@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style/normalize.css" />
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/transition.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> -->
     <link rel="icon" href="./images/javascript.png">
 
     <title>Sign Up - Jamshid</title>
@@ -24,56 +25,75 @@
             <span class="divider"></span>
 
             <form action="#" method="post" class="white__form">
-              <input
+              <div class="white-form__fields">
+                <input
                 type="text"
                 class="fname form__inputs"
                 placeholder="Full name"
                 name="full-name"
                 required
               />
+              <img class="icons" src="./images/user-solid.svg" alt="">
+              </div>
 
-              <input
+              <div class="white-form__fields">
+                <input
                 type="email"
                 class="email form__inputs"
                 placeholder="Email"
                 name="email"
                 required
               />
+              <img class="icons" src="./images/envelope-solid.svg" alt="">
+              </div>
 
-              <input
+              <div class="white-form__fields">
+                <input
                 type="password"
                 class="password form__inputs"
                 placeholder="Password"
                 name="password"
                 required
               />
+              <img class="icons" src="./images/lock-solid.svg" alt="">
+              </div>
 
               <button id="" class="white__form-btn">SIGN UP</button>
             </form>
           </div>
 
           <div id="whiteLogin" class="white__login disable">
+            <div class="white__login-heading">
+              
             <h3 class="white__heading white__signup">Login</h3>
+            <img class="white__login-heading-icon" src="./images/hotel-solid.svg" alt="">
+            </div>
 
             <span class="divider"></span>
 
             <form action="#" method="post" class="white__form">
-              <input
+              <div class="login__fields">
+                <input
                 type="text"
                 class="name form__inputs"
                 placeholder="Name"
                 name="Name"
                 required
               />
+              <img class="login__icons" src="./images/user-solid.svg" alt="">
+              </div>
   
   
-              <input
+              <div class="login__fields">
+                <input
                 type="password"
                 class="password form__inputs"
                 placeholder="Password"
                 name="password"
                 required
               />
+              <img class="login__icons" src="./images/lock-solid.svg" alt="">
+              </div>
   
               <button id="whiteLoginBtn" class="white__login-btn white__form-btn">LOGIN</button>
             </form>
